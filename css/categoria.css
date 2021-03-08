@@ -1,0 +1,45 @@
+.conteudo{
+    margin: auto;
+    padding: 80px;
+    width: 1280px;    
+    background-color: rgba(255, 255, 255, 0.75);
+}
+
+.conteudo h1{
+    font-size: 70px;
+    margin-bottom: 20px;
+}
+
+.conteudo img{
+    margin-right: 20px;
+    float: left;
+}
+
+.conteudo p{
+    font-size: 25px;
+}
+
+.conteudo p:nth-child(4){
+    clear: both;
+}
+
+.conteudo span{
+    font-weight: bolder;
+}
+
+.conteudo hr{
+    clear: both;
+}
+
+.conteudo h2{
+    margin-top: 50px;
+}
+
+.conteudo video{
+    width: 1280px;
+    display: block;
+    margin-top: 20px;
+}
+.conteudo img{
+    width: 480px;
+}

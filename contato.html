@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Daniel Sobrinho">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/navegacao.css">
+    <link rel="stylesheet" href="./css/contato.css">
+
+    <!-- Icones do FontAwesome -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+
+    <!-- Fontes do Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
+    
+    <title>SériesFlix - Contato</title>
+</head>
+<body>
+    <nav>
+        <div><span>Séries<span>Flix</span></span></div>
+        <ul>
+            <li><a href="./index.html">Início</a></li>
+            <li><a href="">Categorias<i class="fas fa-caret-down"></i></a>
+                <ul>
+                    <li><a href="./acao.html">Ação</a></li>
+                    <li><a href="./comedia.html">Comédia</a></li>
+                    <li><a href="./drama.html">Drama</a></li>
+                </ul>
+            </li>
+            <li><a href="./contato.html">Contato</a></li>
+        </ul>
+    </nav>
+
+    <form>
+        <label for="nome">Nome</label>
+        <input type="text" name="nome" id="nome" placeholder="">
+        
+        <label for="estado">Estado e Cidade</label>
+        <select name="estado" id="estado" onchange="inicilizarCidades()">
+            <option value="0">Selecione o Estado</option>
+        </select>
+        <select name="cidade" id="cidade">
+            <option value="0">Selecione a Cidade</option>
+        </select>
+
+        <label for="email">E-mail</label>
+        <input type="email" name="email" id="email">
+
+        <label for="tipoMensagem">Tipo de mensagem:</label>
+        <select name="tipoMensagem" id="tipoMensagem">
+            <option value="sugestao">Sugestão de Série</option>
+            <option value="comentario">Comentário sobre o Site</option>
+            <option value="informacao">Informação sobre Série</option>
+        </select>
+
+        <label for="mensagem">Mensagem</label>
+        <textarea name="mensagem" id="mensagem" cols="30" rows="10"></textarea>
+    
+        <input type="submit" value="Enviar">
+    </form>
+
+    <script src="./script/script.js"></script>
+
+</body>
+</html>

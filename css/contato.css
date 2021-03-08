@@ -1,0 +1,50 @@
+form{
+    position: absolute;
+    z-index: -1;
+    width: 80%;
+    padding: 35px;
+    font-size: 20px;
+    background-color: rgba(0, 0, 0, 0.75);
+    margin: 35px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    border-radius: 15px;
+}
+
+form label{
+    color: white;
+    display: block;
+    font-weight: bolder;
+    margin-bottom: 5px;
+}
+
+form input{
+    padding: 5px;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+form select{
+    padding: 5px;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+form textarea{
+    padding: 5px;
+    font-size: 20px;
+    display: block;
+    margin-bottom: 30px;
+    resize: none;
+}
+
+#nome, #email, textarea{
+    width: 100%;
+    box-sizing: border-box;
+}
+
+input[type="submit"]{
+    margin-left: 100%;
+    transform: translateX(-100%);
+}
+
