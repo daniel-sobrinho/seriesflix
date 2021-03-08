@@ -48,4 +48,20 @@ function limparSelect(){
     }
 }
 
+function validarForm(){
+    //Função apenas para verificar se os dados do form foram preenchidos. Não serve para validação
+
+    let nome = document.getElementById('nome');
+    let estado = document.getElementById('estado');
+    let cidade = document.getElementById('cidade');
+    let email = document.getElementById('email');
+    let mensagem = document.getElementById('mensagem');
+
+    if(nome.value.length>2 && estado.value!=0 && cidade.value!=0 && email.value.length>0 && mensagem.value.length>0){
+        alert("Formulário Enviado com Sucesso")
+    }else{
+        alert("Erro ao enviar, verifique os dados e tente novamente")
+    }
+}
+
 inicializarEstado();
