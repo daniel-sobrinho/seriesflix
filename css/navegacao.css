@@ -74,6 +74,7 @@ nav ul ul{
     display: none;
     background-color: white;
     width: 178px;
+    z-index: 1;
 }
 
 nav ul ul li{

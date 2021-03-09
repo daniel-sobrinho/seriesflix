@@ -1,5 +1,4 @@
 main{
-    z-index: -1;
     background-color: rgba(0, 0, 0, 0.7);
     width: 80%;
     margin-left: 50%;
@@ -7,7 +6,6 @@ main{
     transform: translateX(-50%);
     padding: 50px;
     border-radius: 30px;
-
 }
 
 main p{
