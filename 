@@ -1,0 +1,43 @@
+[33mcommit f0488c856bc1baeb43a8fedc5b85685b044fa236[m[33m ([m[1;36mHEAD -> [m[1;32malteracaoDeEstiloDoFormDeContato[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/correcaoDaLarguraAutomatica[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmain[m[33m, [m[1;32mcorrecaoDaLarguraAutomatica[m[33m)[m
+Author: Daniel Sobrinho <danielcunha_sobrinho@hotmail.com>
+Date:   Mon Mar 8 22:11:03 2021 -0300
+
+    Correção de Bugs na NavBar
+
+[33mcommit d1e6382fb81c16b8801ddb42abc85e489a610b4b[m
+Author: Daniel Sobrinho <danielcunha_sobrinho@hotmail.com>
+Date:   Mon Mar 8 21:52:12 2021 -0300
+
+    Corrigido Z-Index da Descrição do Site
+
+[33mcommit 75406d7d704729129c4237d048071351643bdb99[m
+Author: Daniel Sobrinho <danielcunha_sobrinho@hotmail.com>
+Date:   Mon Mar 8 21:00:32 2021 -0300
+
+    Adicionado a apresentação do site
+
+[33mcommit 352c430134a8b569011f6100ca75a654ee6c594a[m
+Author: Daniel Sobrinho <danielcunha_sobrinho@hotmail.com>
+Date:   Mon Mar 8 20:16:41 2021 -0300
+
+    Correção de Imagens trocadas e links que não funcionavam
+
+[33mcommit 8c56afff9b278ef155f685186cf5139caabef2ca[m
+Author: Daniel Sobrinho <danielcunha_sobrinho@hotmail.com>
+Date:   Mon Mar 8 19:54:16 2021 -0300
+
+    Adicionado função para ver se os dados foram preenchidos no formulário de contato
+    
+    O único objetivo da função é verificar o preenchimento.
+
+[33mcommit abf3f66d0de0f80302745bd3f9cf222561076b8d[m
+Author: Daniel Sobrinho <danielcunha_sobrinho@hotmail.com>
+Date:   Mon Mar 8 19:13:35 2021 -0300
+
+    Upload dos Arquivos
+
+[33mcommit a301c4e6c0a9e1fae4cd3ae3cac4eb1bf5087b08[m
+Author: Daniel Sobrinho <danielcunha_sobrinho@hotmail.com>
+Date:   Mon Mar 8 19:04:55 2021 -0300
+
+    Initial commit
