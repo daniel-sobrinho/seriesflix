@@ -1,7 +1,7 @@
 .conteudo{
     margin: auto;
     padding: 80px;
-    width: 1280px;    
+    width: 75%;    
     background-color: rgba(255, 255, 255, 0.75);
 }
 
@@ -36,7 +36,7 @@
 }
 
 .conteudo video{
-    width: 1280px;
+    width: 100%;
     display: block;
     margin-top: 20px;
 }
